@@ -7,25 +7,9 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>Pokemon</div>
-    <p>
-      PLACE YOUR POKEMON
-    </p>
-    <div class='content'>
-      <div class='no-display'>
-        <input id='file-input'
-               class='no-display'
-               type='file'
-               name='file'
-               accept='image/*'
-               onchange='showPicked(this)'>
-      </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
-      <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
-      </div>
+    <div class='title'>How Old Are Your Texts?</div>
       <div>
-        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+        Enter text: <input id='input-text' type="text" name="analyzetext" />
       </div>
       <div class='analyze'>
         <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
